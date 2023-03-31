@@ -1,0 +1,22 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    padding-left: 45px;
+}
+
+
+section {
+    color: rgb(75, 75, 75);
+}
+
+#months {
+    padding-left: 40px;
+}
+
+#categories {
+    padding-left: 40px;
+}

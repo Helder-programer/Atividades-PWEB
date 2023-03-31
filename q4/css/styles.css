@@ -1,0 +1,114 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+}
+
+
+section {
+    padding: 10px 15px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    max-height: 700px;
+    overflow: auto;
+}
+
+.text-form {
+    margin-top: 10px;
+}
+
+.form-input {
+    width: 100%;
+    font-size: 12pt;
+    padding: 6px 5px;
+    outline: none;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.form-input:focus, .form-input:hover {
+    box-shadow: 0px 1px 8px rgb(101, 101, 225);
+    transition: box-shadow 0.2s linear;
+}
+
+.text-form-date {
+    margin-top: 10px;
+}
+
+.text-form-date input {
+    width: 25%;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-submit {
+    font-size: 13pt;
+    background-color: rgb(80, 80, 251);
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-green {
+    font-size: 13pt;
+    background-color: rgb(85, 163, 51);
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+#extracts {
+    margin-top: 15px;
+    border: 1px solid #d3d3d3;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#extracts caption {
+    border: 1px solid #d3d3d3;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#extracts th, td {
+    border: 1px solid #d3d3d3;
+    text-align: center;
+}
